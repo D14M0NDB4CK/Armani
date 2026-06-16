@@ -180,3 +180,5 @@ Developer: D14M0NDB4CK & CountBB
 Support Server: [CountBBs Cavern on Discord](https://discord.gg/PZqbDEeAP)  
 Email: countbb1@gmail.com | xxd14m0ndb4ckxx@gmail.com   
 Discord Legal: [Discord TOS](https://discordapp.com:8443/terms/terms-of-service-may-2020)
+
+##### *Last Updated: June 2026*
