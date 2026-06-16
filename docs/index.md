@@ -1,4 +1,3 @@
-# Armani Bot
 ##### ~ *Built for Streamers, by Streamers!* ~
 
 ![](https://cdn.discordapp.com/app-icons/1496624916739657798/4ebd5b02b1d7e5f5b31f84a91c05f236.png?size=32)
@@ -23,3 +22,8 @@
 #### Community Tools ~ *Coming Soon*
 * Fully customizable **leveling system** with automatic role assignment 
 * Fun minigames (ie. rock, paper, scisors & more)
+
+## Legal 
+
+[Terms of Service](legal/tos)
+[Privacy Policy](legal/privacypolicy)
