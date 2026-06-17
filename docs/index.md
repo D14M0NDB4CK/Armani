@@ -23,6 +23,14 @@
 * Fully customizable **leveling system** with automatic role assignment 
 * Fun minigames (ie. rock, paper, scisors & more)
 
+## Plans for the future
+
+We have the foundation made, now for the fun part! getting it to connect to a server and play mini games with users!
+
+Once this feature is added and we have a way to host the bot, it will be released to a select few for testing to ensure everything is working before we push on to phase 2!
+
+**Check the [Roadmap](roadmap)**
+
 ## Legal 
 
 [Terms of Service](legal/tos)
