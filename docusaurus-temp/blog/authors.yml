@@ -1,0 +1,31 @@
+d14m0ndb4ck:
+  name: D14MONDB4CK
+  title: Community Admin | Developer
+  url: none
+  image_url: /img/diamondback/logo.png
+  page: true
+  socials:
+    github: https://github.com/D14M0NDB4CK
+    twitch: https://www.twitch.tv/d14m0ndb4ck
+    discord: https://discord.com/users/882122589688987649
+
+countbb:
+  name: CountBB
+  title: Entertainment Director | CountBBs Cavern
+  url: none
+  image_url: /img/countbb/logo.png
+  page: true
+  socials:
+    twitch: https://www.twitch.tv/countbb
+    youtube: https://www.youtube.com/@CountBBs
+    discord: https://discord.com/users/242472265273311232
+
+armani:
+  name: Armani
+  title: Mascot | Selfie King
+  url: none
+  image_url: /img/armani/selfie.png
+  page: true
+  socials: 
+    twitch: https://www.twitch.tv/countbb
+    discord: https://discord.com/users/242472265273311232

@@ -1,0 +1,19 @@
+discord:
+  label: Discord
+  permalink: https://discord.com/invite/rbhfHZjGNz
+  description: CountBBs Cavern
+
+status:
+  label: Status
+  permalink: /status
+  description: Armani Bot status and uptime information
+
+updates:
+  label: Updates
+  permalink: /updates
+  description: Armani Bot & Website updates and announcements
+
+bugfixes:
+  label: Bug Fixes
+  permalink: /bugfixes
+  description: Armani Bot & Website bug fixes and improvements

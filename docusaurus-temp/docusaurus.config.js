@@ -10,7 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  favicon: 'img/favicon-48x48.ico',
+  title: 'Armani Bot',
+  favicon: 'img/favicon/favicon.ico',
 
   future: {
     v4: true,
@@ -21,13 +22,16 @@ const config = {
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
-
   organizationName: 'CountBBs Cavern',
   projectName: 'Armani Bot', 
-
+  // Broken Links
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-
+  markdown: {
+  hooks: {
+    onBrokenMarkdownLinks: 'warn',
+  },
+},
+  // Language
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -44,7 +48,8 @@ const config = {
           
         },
         blog: {
-          showReadingTime: true,
+          routeBasePath: 'Updates',
+          showReadingTime: false,
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: true,
@@ -63,7 +68,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: 'img/armanibot-social-card.jpg',
+      image: 'img/brand/armanibot-social-card.jpg',
       colorMode: {
         respectPrefersColorScheme: true,
       },
@@ -71,7 +76,7 @@ const config = {
         title: 'Armani Bot',
         logo: {
           alt: 'Armani Bot Logo',
-          src: 'img/armani_headshot.png',
+          src: 'img/armanibot/armanibot_headshot.png',
         },
         items: [
           {
@@ -80,7 +85,7 @@ const config = {
             position: 'left',
             label: 'About',
           },
-          {to: '/blog', label: 'Update Notes', position: 'left'},
+          {to: '/Updates', label: 'Updates', position: 'left'},
           {
             href: 'https://discord.gg/5e2vk6wf3u',
             label: 'Support',

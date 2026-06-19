@@ -1,7 +1,4 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
+/*_____Homepage Hero Banner_____*/
 
 .heroBanner {
   padding: 4rem 0;
@@ -10,14 +7,47 @@
   overflow: hidden;
 }
 
+/*__________*/
+
+
 @media screen and (max-width: 996px) {
   .heroBanner {
     padding: 2rem;
   }
 }
 
+/*_____Buttons Container_____*/
+
 .buttons {
   position: absolute;
   bottom: 30px;
   right: 50px;
+  display: flex;
+  gap: 30px;
+  border: 0px solid rgb(0, 0, 0);
 }
+
+/*__________*/
+
+/*_____Meet Armani Section_____*/
+
+.armaniImage {
+  height: 400px;
+  width: 300px;
+  align: left;
+  padding-right: 2rem;
+}
+
+.meetArmani {
+  display: flex;
+  align-items: right;
+  padding: 4rem;
+}
+
+.meetArmaniText {
+  font-size: 1.3rem;
+  text-align: left;
+  max-width: 400px;
+}
+
+/*__________*/

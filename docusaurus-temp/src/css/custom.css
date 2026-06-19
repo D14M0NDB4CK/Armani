@@ -4,21 +4,23 @@
  * work well for content-centric websites.
  */
 
-/* You can override the default Infima variables here. */
+/*_____You can override the default Infima variables here._____*/
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #aa6f02;
+  --ifm-color-primary-dark: #b16502;
+  --ifm-color-primary-darker: #855703;
+  --ifm-color-primary-darkest: #5d4f20;
+  --ifm-color-primary-light: #cf7c00;
+  --ifm-color-primary-lighter: #e69704;
+  --ifm-color-primary-lightest: #f39f02;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
+/*_____Custom homepage banner with invite and community buttons_____*/
+
 .hero {
-  background-image: url('/img/armanibot_homepage_banner.png');
+  background-image: url('/img/banner/armanibot_homepage_banner.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -31,23 +33,12 @@
   right: 200px;
 }
 
-// Buttons General
+/*__________*/
 
-.buttons {
-  position: absolute;
-  bottom: 30px;
-  right: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  gap: 15px;
-}
-
-//
-
-// Primary Button Styles
+/*_____Primary Button Style_____*/
 
 .button--primary {
-  background-color: #2e8555;
+  background-color: #f18306;
   color: white;
   border: none;
   border-radius: 12px;
@@ -59,30 +50,31 @@
   cursor: not-allowed;
 }
 
-//
+/*__________*/
 
-// Secondary Button Styles
+/*_____Secondary Button Style_____*/
 
 .button--secondary {
-  background-color: #2966e7;
-  color: rgb(29, 5, 243);
+  background-color: #f18306;
+  color: rgb(248, 248, 248);
   border: none;
   border-radius: 12px;
   padding: 15px 30px;
 }
 
-//
+/*__________*/
 
+/*_____Active Page & Button Hover Color_____*/
 
-
-/* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #f79604;
+  --ifm-color-primary-dark: #e18804;
+  --ifm-color-primary-darker: #d47f04;
+  --ifm-color-primary-darkest: #af6903;
+  --ifm-color-primary-light: #f8a721;
+  --ifm-color-primary-lighter: #f9b03a;
+  --ifm-color-primary-lightest: #fbc46d;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/*__________*/
