@@ -37,6 +37,8 @@ const config = {
     locales: ['en'],
   },
 
+  /*_____Header______*/
+
   presets: [
     [
       'classic',
@@ -93,6 +95,11 @@ const config = {
           },
         ],
       },
+
+      /*__________*/
+
+      /*_____Footer______*/
+
       footer: {
         style: 'dark',
         links: [
@@ -142,6 +149,8 @@ const config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
+
+      /*__________*/
     }),
 };
 
