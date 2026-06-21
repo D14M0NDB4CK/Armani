@@ -54,7 +54,7 @@
   text-align: left;
   max-width: 400px;
   padding: 20px;
-  
+  margin: -20px auto 0 auto;
 }
 
 .armaniDivider {
@@ -68,21 +68,14 @@
 .whyabText {
   font-size: 1.3rem;
   text-align: left;
-  max-width: 800px !important;
+  max-width: 900px !important;
   width: 800px;
+  margin: -0px -100px 0 100px;
 }
 
 /*__________*/
 
-/*_____Key Features Section_____*/
-
-.keyFeatures {
-  width: 100%;
-  max-width: none;
-  display: block;
-  text-align: center;
-  ;
-}
+/*_____Divider1_____*/
 
 .kfDivider {
   width: 2000px;
@@ -90,3 +83,168 @@
   margin: 0px auto;
   background: #f18306;
 }
+
+/*__________*/
+
+/*_____Key Features Title_____*/
+
+.keyfeaturesContainer{
+  max-width: 1800px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.kftitleContainer {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-top: -135px;
+}
+
+.kftitle {
+  width: 500px;
+  height: auto;
+}
+
+/*__________*/
+
+/*_____First Feature_____*/
+
+.featureCard {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  max-width: 1400px;
+  width: 100%;
+  margin: -140px auto 0 auto;
+  transform: translate(-200px);
+}
+
+.notifImage {
+  width: 500px;
+  height: auto;
+}
+
+.featureText {
+  max-width: 900px;
+  text-align: left;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+/*__________*/
+
+/*______Second Feature_____*/
+
+.featureCard2 {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  justify-content: flex-end;
+  max-width: 1400px;
+  width: 100%;
+  margin: -150px auto 0 auto;
+  transform: translate(200px);
+  
+}
+
+.reactImage {
+  width: 500px;
+  height: auto;
+}
+
+.reactText {
+  max-width: 900px;
+  text-align: right;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+/*__________*/
+
+/*_____Third Feature_____*/
+
+.featureCard3 {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  max-width: 1400px;
+  width: 100%;
+  margin: -150px auto 0 auto;
+  transform: translate(-200px);
+}
+
+.ticketImage {
+  width: 500px;
+  height: auto;
+}
+
+.ticketText {
+  max-width: 900px;
+  text-align: left;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+/*__________*/
+
+/*_____Fourth Feature_____*/
+
+.featureCard4 {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  justify-content: flex-end;
+  max-width: 1400px;
+  width: 100%;
+  margin: -150px auto 0 auto;
+  transform: translate(200px);
+}
+
+.assistText {
+  max-width: 900px;
+  text-align: right;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.assistImage {
+  width: 500px;
+  height: auto;
+}
+
+/*__________*/
+
+/*_____Plans Section and Title_____*/
+
+.plansContainer {
+  max-width: 1800px;
+  display: flex;
+  margin: -610px auto 0 auto;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  z-index: 10;
+}
+
+.plansDivider {
+  width: 5px;
+  background: #f18306;
+  height: 400px;
+  margin: 0 auto 0 auto;
+}
+
+.plansImage {
+  width: 700px;
+  height: auto;
+}
+
+/*__________*/
+
+/*_____Free Features_____*/
+
+
+
+/*__________*/
+
+/*_____Premium Features_____*/

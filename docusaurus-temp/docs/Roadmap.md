@@ -8,15 +8,17 @@ title: Roadmap
 
 ### 0.1.0 First Release ~ Coming Soon!
 
- **Current Bot Phase:** Phase 1- Closed Testing ~ Coming Soon!
+ **Current Bot Phase:** Phase 1- Closed Testing ~ Coming Soon!  
  **Current Website Phase:** Phase 1- Under Construction
-#
+___
 
 ## Current Progress ~ In Development!
 
 We have the foundation made, now for the fun part! getting it to connect to a server and play mini games with users!
 
 Once this feature is added and we have a way to host the bot, it will be released to a select few for testing to ensure everything is working before we push on to phase 2!
+
+___
 
 ## All Planned Features
 

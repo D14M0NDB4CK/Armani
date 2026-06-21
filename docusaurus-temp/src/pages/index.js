@@ -74,11 +74,87 @@ export default function Home() {
         </section>
         {/*__________*/}
         <div className={styles.kfDivider}></div>
-        {/*_____Key Features Section_____*/}
-        <section className={styles.keyFeatures}>  
-          <img
-            src="/img/banner/features_list.png"
-            alt="Features List"
+        {/*_____Key Features Title_____*/}
+        <section className={styles.keyfeaturesContainer}>
+          <div className={styles.kftitleContainer}>
+            <img className={styles.kftitle}
+              src="/img/brand/key_features_txt.png"
+              alt="Features List"
+            />
+          </div>
+        </section>
+        {/*__________*/}
+        {/*_____First Feature_____*/}
+        <section>
+          <div className={styles.featureCard}>
+            <img className={styles.notifImage}
+              src="/img/brand/tandynoti_feature.png"
+              alt="Twitch and Youtube Notify w/ LR"
+            />
+            <div className={styles.featureText}>
+              <p>
+                Get real-time notifications when you or your favorite favorite streamers go live or post a new upload on Twitch or YouTube. 
+                Automatically assign a Live Role when your community goes live and separate them for visibility, and remove the role when
+                they go offline.
+              </p>
+            </div>
+          </div>
+        </section>
+        {/*__________*/}
+        {/*_____Second Feature_____*/}
+        <section>
+          <div className={styles.featureCard2}>
+            <div className={styles.reactText}>
+              <p>
+                Let your member self-assign roles by reacting to messages. Perfect for verification, interests, and more! Its simple to set up, and fun to use! 
+              </p>
+            </div>
+            <img className={styles.reactImage}
+              src="/img/brand/react_feature.png"
+              alt=" Reaction Roles Feature"
+            />
+          </div>
+        </section>
+        {/*__________*/}
+        {/*_____Third Feature_____*/}
+        <section>
+          <div className={styles.featureCard3}>
+            <img className={styles.ticketImage}
+              src="/img/brand/ticket_feature.png"
+              alt="Ticketing Feature"
+            />
+            <div className={styles.ticketText}>
+              <p>
+                Streamline your support with an easy to use ticketing system. Members can create tickets, and staff can resolve them
+                efficiently all in Discord. Fully customizable with custom titles and text boxes with questions tailored to your community!
+              </p>
+            </div>
+          </div>
+        </section>
+        {/*__________*/}
+        {/*_____Fourth Feature_____*/}
+        <section>
+          <div className={styles.featureCard4}>
+            <div className={styles.assistText}>
+              <p>
+                Powerful tools to help you and your staff moderate, protect, and manage your server with ease. From advanced commands to smart automation.
+                Get notified when auto actions are taken, or when a new member forgets to do onboarding!
+              </p>
+            </div>
+            <img className={styles.assistImage}
+              src="/img/brand/assist_feature.png"
+              alt="Admin & Mod Assist Feature"
+            />
+          </div>
+        </section>
+        {/*__________*/}
+        <div className={styles.kfDivider}></div>
+        {/*_____Free and Premium Title_____*/}
+        <div className={styles.plansDivider}></div>
+        <section className={styles.plansContainer}>
+          <img className={styles.plansImage}
+            src="/img/brand/free_premium.png"
+            alt="Free VS Premium"
           />
         </section>
       </main>
