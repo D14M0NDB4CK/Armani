@@ -1,16 +1,33 @@
+---
+sidebar_position: 2
+title: Roadmap
+---
+
+
 # Armani Bot Roadmap
 
 ### 0.1.0 First Release ~ Coming Soon!
 
- **Current Phase:** Phase 1- Closed Testing ~ Coming Soon!
+ **Current Bot Phase:** Phase 1- Closed Testing ~ Coming Soon!  
+ **Current Website Phase:** Phase 1- Under Construction
+___
 
-#
-
-## Current Progress ~ In Development!
+## Current Bot Progress ~ In Development!
 
 We have the foundation made, now for the fun part! getting it to connect to a server and play mini games with users!
 
 Once this feature is added and we have a way to host the bot, it will be released to a select few for testing to ensure everything is working before we push on to phase 2!
+
+
+## Current Website/Dashboard Progress ~ First Release W.0.1.0
+
+We have just released the first version of the website so people can find us and learn more about Armani Bot. Just remember I am a 
+novice coder, never done this before so apologies for any issues in advance, and any feedback is much appreciated!
+
+Note: Website version follows a specific version code as (w.0.0.0) so we dont get things mixed up on our end! See changelogs in [Updates](http://localhost:3000/Updates)
+for updates notes!
+
+___
 
 ## All Planned Features
 
@@ -18,11 +35,11 @@ Once this feature is added and we have a way to host the bot, it will be release
 - [ ] Twitch Notifications ~ 0.2.0
 - [ ] Youtube Notifications ~ 0.2.0
 - [ ] Live Role Assignment ~ 0.2.0
-- [ ] Reaction Roles ~ TBD
-- [ ] Discord AAutomod ~ TBD
+- [ ] Reaction Roles ~ 0.3.0
+- [ ] Discord Admin & Mod Assist ~ TBD
 - [ ] Custom Commands ~ TBD
 - [ ] Discord Ticketing System ~ TBD
-- [ ] Schedual Feature ~ TBD
+- [ ] Schedule Feature ~ TBD
 - [ ] Custom Webhooks ~ TBD
 - [ ] Fully Customizable Avatar ~ TBD Premium Feature
 
