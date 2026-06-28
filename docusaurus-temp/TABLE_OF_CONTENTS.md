@@ -66,3 +66,7 @@ ___
   - **sidebar.js:**
 
   - **TABLE_OF_CONTENTS.md:** this file
+
+___
+
+# Languages (/i18n)

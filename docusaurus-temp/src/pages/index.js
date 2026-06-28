@@ -157,6 +157,30 @@ export default function Home() {
             alt="Free VS Premium"
           />
         </section>
+        <section>
+          <div className={styles.freeContainer}>
+            <div className={styles.freeTxt}>
+              <h2 style={{ color: '#00b8ff' }}>Armani Bot</h2>
+              <ul>
+                <li>Follow up to 10 Twitch and Youtube channels</li>
+                <li>Get a customizable support ticket system</li>
+                <li>Up to 5 reaction roles for your community</li>
+                <li>Get basic admin and mod assists for your channel</li>
+                <li>Get several mini-games for your community</li>
+              </ul>
+            </div>
+            <div className={styles.premiumTxt}>
+              <h2 style={{ color:  '#f18306' }}>Armani Bot Premium</h2>
+              <ul>
+                <li>Everything in Armani Bot Free PLUS+</li>
+                <li>Follow up to 50 Twitch and Youtube channels</li>
+                <li>Up to 15 reaction roles for your community</li>
+                <li>Full admin and mod assist with job assignments</li>
+                <li>Fully Customizable Armani Bot ~ Tailor Armani to your server!</li>
+              </ul>
+            </div>
+          </div>
+        </section>  
       </main>
     </Layout>
   );

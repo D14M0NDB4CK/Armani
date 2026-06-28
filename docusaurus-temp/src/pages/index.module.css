@@ -34,7 +34,6 @@
 .armaniImage {
   height: 400px;
   width: 300px;
-  align: left;
   padding-right: 2rem;
   margin-left: -175px;
   margin-top: -40px;
@@ -241,10 +240,30 @@
 
 /*__________*/
 
-/*_____Free Features_____*/
+/*_____Features_____*/
 
+.freeContainer {
+  display: flex;
+  max-width: 1800px;
+  margin: -175px auto 0 200px;
+}
 
+.freeTxt {
+  font-size: 1.3rem;
+  font-weight: 0;
+  width: 50%;
+  text-align: left;
+  padding-right: 80px;
+  flex: 1;
+}
+
+.premiumTxt {
+  font-size: 1.3rem;
+  font-weight: 0;
+  width: 50%;
+  text-align: left;
+  padding-left: 80px;
+  flex: 1;
+}
 
 /*__________*/
-
-/*_____Premium Features_____*/
